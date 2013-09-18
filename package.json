@@ -4,7 +4,7 @@
   },
   "name": "browser-id-verify",
   "description": "Verify BrowserID assertion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/connrs/node-browser-id-verify.git"
