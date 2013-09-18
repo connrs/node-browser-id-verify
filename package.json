@@ -1,0 +1,29 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "browser-id-verify",
+  "description": "Verify BrowserID assertion",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-browser-id-verify.git"
+  },
+  "main": "lib/browser-id-verify.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "devDependencies": {
+    "tape": "~1.1.0"
+  }
+}
